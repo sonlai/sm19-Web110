@@ -1,0 +1,34 @@
+/* styles for table */
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 80%;
+    margin: auto;
+}
+
+/*
+tr {
+    vertical-align: top;
+}
+*/
+
+tr:nth-child(even), thead tr {
+    background-color:#000;
+    color:#fff;
+}
+
+thread tr {
+    background-color: aqua; 
+}
+
+td {
+    border: 1px dotted #f00;
+    padding: .5em;
+}
+
+th {
+    background-color: grey;
+    font-weight: bold;
+    padding: .5em;
+}
