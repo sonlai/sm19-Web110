@@ -1,0 +1,129 @@
+html {
+    background-color:#css;
+}
+
+main {
+    background-color"#fff;
+    width:80%;
+    margin: auto;
+    
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+.fullwith {
+    width:100%;
+}
+
+section {
+    float: left;
+    width: 64%;
+ 
+}
+
+img {
+    width:100%;
+    border: 1px solid #000;
+}
+
+div.gallery{
+    text-align: center;
+}
+
+figure {
+    display:inline-block;
+    margin:.25%;
+}
+
+
+aside {
+    float: right;
+    width: 34%;
+   
+}
+
+footer {
+    padding:2em; 
+
+    text-align: center; 
+    clear: both;
+}
+
+
+
+
+/* Calendar */
+.embed-container {
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+} 
+.embed-container iframe{ 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+/* End */
+
+/* Hide Agenda View Calendar */
+
+div.embed-container.agenda-view {
+    display:none;
+}
+
+/* Map */
+.embed-container-map { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+
+.embed-container iframe {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* End */
+
+/* Start Embed Responsively Style */
+.embed-container { 
+position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe{
+ position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+/* End */
+
+/* Calendar Rule for Phone */
+@media all and (max-width: 860px) {
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display: block;
+    }
+    
+    /* hide month view calendar */
+    div.embed-container.month-view {
+        display:none;
+    }
+    
+/* MOBILE STYLE */
+
+@media all and (max-width: 600px) {
+    main {
+        
+        width: 100%;
+    }
+    
+    section {
+        float:none;
+        width:100%;
+    }
+    
+    aside {
+        float: none;
+        width:100%;
+     
+    }
+}
+
